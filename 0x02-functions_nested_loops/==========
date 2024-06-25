@@ -1,0 +1,6 @@
+ilphabet_x10.c:12: WARNING: Missing a blank line after declarations
+2-print_alphabet_x10.c:12: ERROR: spaces required around that '=' (ctx:WxO)
+2-print_alphabet_x10.c:12: ERROR: spaces required around that '<' (ctx:OxW)
+total: 2 errors, 1 warnings, 20 lines checked
+print_alphabet_x10
+root@5d3b057b34a4:/alx-low_level_programming/0x02-functions_nested_loops# 
