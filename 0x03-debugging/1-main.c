@@ -1,25 +1,29 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop
-* Return: 0
-*/
-
+ * main - demonstrates avoiding an infinite loop
+ * Return: Always 0
+ */
 int main(void)
 {
-        int i;
+    printf("Infinite loop incoming :(\n");
 
-        printf("Infinite loop incoming :(\n");
+    /* 
+     * This loop was causing an infinite loop because putchar(i); 
+     * was printing integer values, not characters. Corrected it
+     * to print characters representing numbers 0 to 9.
+     */
+    /*
+     * int i = 0;
+     * while (i < 10)
+     * {
+     *     putchar(i + '0');
+     *     i++;
+     * }
+     */
 
-        i = 0;
+    printf("Infinite loop avoided! \\o/\n");
 
-        while (i < 10)
-        {
-                putchar(i);
-        }
-
-        printf("Infinite loop avoided! \\o/\n");
-
-        return (0);
+    return (0);
 }
-carrie@ubuntu:/debugging$
+
